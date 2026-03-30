@@ -2,8 +2,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: #seu email que esta usando a senha app
-    password: #sua senha do senha do app no gmail
+    username: # seu email
+    password: # sua  senha de app
     protocol: smtp
     properties:
       mail:
@@ -24,7 +24,7 @@ spring:
 
 envio:
   email:
-    remetente: # email de quem vai enviar
+    remetente: # seu email
     nomeRemetente: 'Edson Vinicius'
 
 server:
